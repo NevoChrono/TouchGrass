@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown</title>
+
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <!--css file-->
+    <link rel="stylesheet" href="lstyles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+      <!-- Navigation bar side -->
+      <div class="sidebar close">
+        <div class="logo">
+          <i class="fab fa-trade-federation"></i>
+          <span class="logo-name">FitNess</span>
+        </div>
+        
+        <ul class="nav-list">
+          <li>
+            <a href="#">
+              <i class="fas fa-bars"></i> 
+              <span class="link-name">Categories</span>
+            </a>
+          </li>
+          <li>
+            <a href="/Hackcathon/Home.html">
+              <i class="fab fa-microsoft"></i>
+              <span class="link-name">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="/Hackcathon/Gamepage.html">
+              <i class="fas fa-clock-rotate-left"></i>
+              <span class="link-name">Activity</span>
+            </a>
+          </li>
+          <li>
+            <a href="/Hackcathon/Leaderboard.html">
+              <i class='bx bxs-trophy'></i>
+              <span class="link-name">LeaderBoard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-cart-shopping"></i>
+              <span class="link-name">Cart</span>
+            </a>
+          </li>
+          <li>
+            <a href="/Hackcathon/Login.html">
+              <i class='bx bxs-user' ></i>
+              <span class="link-name">Login</span>
+            </a>
+          </li>
+          <li>
+            <a href="/Hackcathon/Sign_Up.html">
+              <i class='bx bxs-lock-alt' ></i>
+              <span class="link-name">Sign-up</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-gear"></i>
+              <span class="link-name">Settings</span>
+            </a>
+          </li>
+          <li>
+            <div class="profile-details">
+              <div class="profile-content">
+                <img src="profile.jpg" alt="" />
+              </div>
+              <div class="name-job">
+                <div class="name">Team Cypher</div>
+                <div class="job">Student</div>
+              </div>
+              <i class="fas fa-right-to-bracket"></i>
+            </div>
+          </li>
+        </ul>
+      </div>
+    <!-- End Navigation bar side -->
+
+  <!-- Home section/main -->
+  
+    <div class="home-section">
+      <div class="home-content">
+        <main>
+          <div id="header">
+            <h1>Ranking</h1>
+            <button class="share">
+              <i class='bx bx-share-alt' style='color:#360000'  ></i>
+            </button>
+          </div>
+          <div id="leaderboard">
+            <div class="ribbon"></div>
+            <table>
+              <tr>
+                <td class="number">1</td>
+                <td class="name">Rohan Verma</td>
+                <td class="points">
+                  258.244 <img class="gold-medal" src="https://github.com/malunaridev/Challenges-iCodeThis/blob/master/4-leaderboard/assets/gold-medal.png?raw=true" alt="gold medal"/>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">2</td>
+                <td class="name">Nitin Kartik</td>
+                <td class="points">258.242</td>
+              </tr>
+              <tr>
+                <td class="number">3</td>
+                <td class="name">Ashish David John</td>
+                <td class="points">258.223</td>
+              </tr>
+              <tr>
+                <td class="number">4</td>
+                <td class="name">Diptokrit Chaudhary</td>
+                <td class="points">258.212</td>
+              </tr>
+              <tr>
+                <td class="number">5</td>
+                <td class="name">Anirudh Cheppella</td>
+                <td class="points">258.208</td>
+              </tr>
+            </table>
+            <div id="buttons">
+              <button class="exit">Exit</button>
+              <button class="continue">Continue</button>
+            </div>
+          </div>
+        </main>
+</div>
+    </div>
+ 
+    <script src="ljs.js"></script> 
+  </body>
+</html>

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown</title>
+
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <!--css file-->
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <!-- Navigation bar side -->
+    <div class="sidebar close">
+      <div class="logo">
+        <i class="fab fa-trade-federation"></i>
+        <span class="logo-name">FitNess</span>
+      </div>
+      
+      <ul class="nav-list">
+        <li>
+          <a href="#">
+            <i class="fas fa-bars"></i> 
+            <span class="link-name">Categories</span>
+          </a>
+        </li>
+        <li>
+          <a href="Home.html">
+            <i class="fab fa-microsoft"></i>
+            <span class="link-name">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="/Hackcathon/Gamepage.html">
+            <i class="fas fa-clock-rotate-left"></i>
+            <span class="link-name">Activity</span>
+          </a>
+        </li>
+        <li>
+          <a href="/Hackcathon/Leaderboard.html">
+            <i class='bx bxs-trophy'></i>
+            <span class="link-name">LeaderBoard</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-cart-shopping"></i>
+            <span class="link-name">Cart</span>
+          </a>
+        </li>
+        <li>
+          <a href="/Hackcathon/Login.html">
+            <i class='bx bxs-user' ></i>
+            <span class="link-name">Login</span>
+          </a>
+        </li>
+        <li>
+          <a href="/Hackcathon/Sign_Up.html">
+            <i class='bx bxs-lock-alt' ></i>
+            <span class="link-name">Sign-up</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-gear"></i>
+            <span class="link-name">Settings</span>
+          </a>
+        </li>
+        <li>
+          <div class="profile-details">
+            <div class="profile-content">
+              <img src="/Hackcathon/Images/profile.jpg" alt="" />
+            </div>
+            <div class="name-job">
+              <div class="name">Team Cypher</div>
+              <div class="job">Student</div>
+            </div>
+            <i class="fas fa-right-to-bracket"></i>
+          </div>
+        </li>
+      </ul>
+    </div>
+  <!-- End Navigation bar side -->
+
+  <!-- Home section/main -->
+    <div class="home-section">
+      <div class="home-content">
+        <main>
+          <h1>Analytics</h1>
+          <!-- Analyses -->
+          <div class="analyse">
+              <div class="sales">
+                  <div class="status">
+                      <div class="info">
+                          <h3>Heart Rate</h3>
+                          <h1>82Bpm</h1>
+                      </div>
+                      <div class="progresss">
+                          <svg>
+                              <circle cx="38" cy="38" r="36"></circle>
+                             
+                          </svg>
+                          <div class="percentage">
+                              <p>82</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="visits">
+                  <div class="status">
+                      <div class="info">
+                          <h3>Calories</h3>
+                          <h1>400Kcal</h1>
+                      </div>
+                      <div class="progresss">
+                          <svg>
+                              <circle cx="38" cy="38" r="36"></circle>
+                          </svg>
+                          <div class="percentage">
+                              <p>400</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="searches">
+                  <div class="status">
+                      <div class="info">
+                          <h3>Steps</h3>
+                          <h1>14,147</h1>
+                      </div>
+                      <div class="progresss">
+                          <svg>
+                              <circle cx="38" cy="38" r="36"></circle>
+                          </svg>
+                          <div class="percentage">
+                              <p>14k</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- End of Analyses -->
+
+          <!-- New Users Section -->
+          <div class="new-users">
+              <h2>Health Overview</h2>
+              <div class="user-list">
+                  <div class="user">
+                      <img src="/Hackcathon/Images/moon.jpg">
+                      <h2>Sleep<h2>
+                      <h6>No data recorded</h6>
+                  </div>
+                  <div class="user">
+                      <img src="/Hackcathon/Images/drop.jpg">
+                      <h2>Blood oxygen</h2>
+                      <h6>No data recorded</h6>
+                  </div>
+                  <div class="user">
+                      <img src="/Hackcathon/Images/leaf.jpg">
+                      <h2>Stress</h2>
+                      <h6>No data recorded</h6>
+                  </div>
+                  <div class="user">
+                      <img src="/Hackcathon/Images/foot.jpg">
+                      <h2>Distance</h2>
+                      <h6>No data recorded</h6>
+                  </div>
+              </div>
+          </div>
+          <!-- End of New Users Section -->
+
+          <!-- Recent Orders Table -->
+          <div class="recent-orders">
+              <h2>Recent Workouts</h2>
+              <table cellspacing="5px">
+                  <thead>
+                      <tr>
+                          <th><i class='bx bx-cycling' style='color:#6424c4'  ></i></th>
+                          <th>Cycling</th>
+                          <th>10Km</th>
+                          <th>Completed</th>
+                          <th></th>
+                      </tr>                    
+                  </thead>
+                  <tbody></tbody>
+              </table>
+              <table cellspacing="5px">
+                <thead>
+                    <tr>
+                        <th><i class='bx bx-dumbbell' style='color:#6424c4' ></i></th>
+                        <th>Hit the Gym!</th>
+                        <th>2Hrs</th>
+                        <th>Completed</th>
+                        <th></th>
+                    </tr>                    
+                </thead>
+                <tbody></tbody>
+            </table>
+          </div>
+          <!-- End of Recent Orders -->
+      </main>
+      <!-- End of Main Content -->
+
+      <!-- Right Section -->
+      <div class="right-section">
+          
+          <!-- End of Nav -->
+
+          <div class="user-profile">
+              <div class="logo">
+                  <img src="/Hackcathon/Images/profile.jpg">
+                  <h2>Poggys</h2>
+                  <p>poggy natioshin</p>
+              </div>
+          </div>
+
+          <div class="reminders">
+              <div class="header">
+                  <h2>Reminders</h2>
+                  <span class="material-icons-sharp">
+                      <b>2</b>
+                  </span>
+              </div>
+
+              <div class="notification">
+                  <div class="icon">
+                      <span class="material-icons-sharp">
+                          GYM
+                      </span>
+                  </div>
+                  <div class="content">
+                      <div class="info">
+                          <h3>Gym</h3>
+                          <small class="text_muted">
+                              10:00 AM - 12:00 PM
+                          </small>
+                      </div>
+                      <span class="material-icons-sharp">
+                          
+                      </span>
+                  </div>
+              </div>
+
+              <div class="notification deactive">
+                  <div class="icon">
+                      <span class="material-icons-sharp">
+                          Cycle
+                      </span>
+                  </div>
+                  <div class="content">
+                      <div class="info">
+                          <h3>Cycling</h3>
+                          <small class="text_muted">
+                              08:00 AM - 10:00 AM
+                          </small>
+                      </div>
+                      <span class="material-icons-sharp">
+                          
+                      </span>
+                  </div>
+              </div>
+
+              <div class="notification add-reminder">
+                  <div>
+                      <span class="material-icons-sharp">
+                          add
+                      </span>
+                      <h3>Add Reminder</h3>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    <script src="app.js"></script> 
+    <script src="Home.js"></script>
+    <script src="orders.js"></script>
+  </body>
+</html>

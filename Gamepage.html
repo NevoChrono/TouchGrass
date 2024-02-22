@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown</title>
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <!--css file-->
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            background-color: #f7efe5; /* Set background color */
+        }
+        .home-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        .game-section {
+            text-align: center;
+            background-color: white; /* Set canvas background color */
+            border: 2px solid #ccc; /* Add border to canvas */
+            border-radius: 10px; /* Rounded border */
+            overflow: hidden; /* Hide overflow content */
+        }
+        canvas {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+      <!-- Navigation bar side -->
+      <div class="sidebar close">
+        <div class="logo">
+          <i class="fab fa-trade-federation"></i>
+          <span class="logo-name">FitNess</span>
+        </div>
+        
+        <ul class="nav-list">
+          <li>
+            <a href="#">
+              <i class="fas fa-bars"></i> 
+              <span class="link-name">Categories</span>
+            </a>
+          </li>
+          <li>
+            <a href="/Hackcathon/Home.html">
+              <i class="fab fa-microsoft"></i>
+              <span class="link-name">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="/Hackcathon/Gamepage.html">
+              <i class="fas fa-clock-rotate-left"></i>
+              <span class="link-name">Activity</span>
+            </a>
+          </li>
+          <li>
+            <a href="/Hackcathon/Leaderboard.html">
+              <i class='bx bxs-trophy'></i>
+              <span class="link-name">LeaderBoard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-cart-shopping"></i>
+              <span class="link-name">Cart</span>
+            </a>
+          </li>
+          <li>
+            <a href="/Hackcathon/Login.html">
+              <i class='bx bxs-user' ></i>
+              <span class="link-name">Login</span>
+            </a>
+          </li>
+          <li>
+            <a href="/Hackcathon/Sign_Up.html">
+              <i class='bx bxs-lock-alt' ></i>
+              <span class="link-name">Sign-up</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-gear"></i>
+              <span class="link-name">Settings</span>
+            </a>
+          </li>
+          <li>
+            <div class="profile-details">
+              <div class="profile-content">
+                <img src="profile.jpg" alt="" />
+              </div>
+              <div class="name-job">
+                <div class="name">Team Cypher</div>
+                <div class="job">Student</div>
+              </div>
+              <i class="fas fa-right-to-bracket"></i>
+            </div>
+          </li>
+        </ul>
+      </div>
+    <!-- End Navigation bar side -->
+
+
+    <!-- Home section/main -->
+   
+    
+    <div class="home-section">
+        <div class="home-content">
+            <div class="game-section">
+                <header>
+                    <h1>Floppy Bird</h1>
+                    <div class="score-container">
+                        <div id="bestScore"></div>
+                        <div id="currentScore"></div>
+                    </div>
+                </header>
+                <canvas id="canvas" width="431" height="768"></canvas>
+            </div>
+        </div>
+    </div>
+
+   
+    <script src="app.js"></script> 
+    <script src="play.js"></script>
+</body>
+</html>
